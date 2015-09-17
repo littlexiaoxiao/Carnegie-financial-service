@@ -1,0 +1,86 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Login to Project Hope Admin Panel">
+    <meta name="author" content="Neighborhood Allies, eBiz CMU 2015">
+    <link rel="shortcut icon" type="image/png" href="../../assets/img/favicon.png"/>
+
+
+    <title>Forgot Password | Hope Project Neighborhood Allies</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+            <div class="text-center">
+            <br>
+            <img src="../../assets/img/adminlogo.png" alt="Neighborhood Allies Logo"><br>
+            </div>
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Password Retreival</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form" action="change_pwd.do">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Enter email registered" name="email" type="email" autofocus required="required">
+                                </div>
+                                <input type="submit" class="btn btn btn-danger btn-block" name="sendpsw" value="Send Password">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <p class="text-center">
+                <span class="icon icon-web"></span> <a href="http://neighborhoodallies.com">Go to Neighborhood Allies</a> | 
+                <span class="icon icon-web"></span> <a href="../../index.html">Go to Hope Website</a>
+                <br>
+                Copyright 2015 &copy;</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
